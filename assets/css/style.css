@@ -272,7 +272,7 @@ p {
 }
 .infetech-header-area .templates-logo {
   background: #1d1729;
-  padding: 42px 80px;
+  padding: 21.5px 80px;
   height: 100%;
 }
 @media (max-width: 767px) {
@@ -283,7 +283,7 @@ p {
   }
 }
 .infetech-header-area .templates-logo img {
-  max-width: 160px;
+  max-width: 96px;
 }
 .infetech-header-area .header-wrapper {
   display: flex;
@@ -1806,19 +1806,19 @@ p {
   z-index: -1;
 }
 .infetech-banner-area .infetech-banner-slide-active.item-1 {
-  background-image: url(../images/banner-thumb-1.jpg);
+  background-image: url(../dummy/banner-thumb-1.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 .infetech-banner-area .infetech-banner-slide-active.item-2 {
-  background-image: url(../images/banner-thumb-2.jpg);
+  background-image: url(../dummy/banner-thumb-2.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 .infetech-banner-area .infetech-banner-slide-active.item-3 {
-  background-image: url(../images/banner-thumb-3.jpg);
+  background-image: url(../dummy/banner-thumb-3.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2533,7 +2533,7 @@ p {
 }
 
 .breadcrumb-area {
-  background-image: url(../images/breadcrumb-bg.png);
+  background-image: url(../dummy/breadcrumb-bg.png);
   background-position: top right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3675,7 +3675,7 @@ p {
     7.CTA css 
 ===========================*/
 .infetech-cta-box {
-  background-image: url(../images/cta-bg.jpg);
+  background-image: url(../dummy/cta-bg.jpg);
   position: relative;
   z-index: 10;
   padding: 80px 100px;
@@ -3826,7 +3826,7 @@ p {
 }
 
 .cta-home-box {
-  background-image: url(../images/cta-bg-2.jpg);
+  background-image: url(../dummy/cta-bg-2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -5661,7 +5661,7 @@ p {
 .infetech-video-area {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-image: url(../images/video-bg.jpg);
+  background-image: url(../dummy/video-bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -8008,7 +8008,7 @@ p {
     18.PROMO BANNER css 
 ===========================*/
 .infetech-promo-banner-area {
-  background-image: url(../images/promo-banner-bg.jpg);
+  background-image: url(../dummy/promo-banner-bg.jpg);
   padding: 168px 0 120px;
   background-size: cover;
   background-position: center;
