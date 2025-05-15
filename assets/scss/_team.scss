@@ -56,7 +56,7 @@
 		&::before {
 			display: none;
 		}
-		& .single-tema-item {
+		& .single-team-item {
 			margin-bottom: 60px;
 			@media #{$md} {
 				margin-bottom: 0;
@@ -68,7 +68,7 @@
 	}
 }
 
-.single-tema-item {
+.single-team-item {
 	margin-left: 25px;
 	margin-right: 25px;
 	padding-top: 20px;
