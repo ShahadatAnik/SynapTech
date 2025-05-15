@@ -1,12 +1,8 @@
-
-
-
 /*===========================
     3.BANNER css 
 ===========================*/
 
-
-.infetech-banner-area{
+.synaptech-banner-area {
 	position: relative;
 	z-index: 10;
 	overflow: hidden;
@@ -19,14 +15,14 @@
 	@media #{$xs} {
 		margin-bottom: 80px;
 	}
-	&.infetech-banner-layoyt-2{
+	&.synaptech-banner-layoyt-2 {
 		margin-top: -2px;
 		border: 0;
 	}
-	& .infetech-banner-slide-active{
+	& .synaptech-banner-slide-active {
 		position: relative;
 		z-index: 10;
-		&::before{
+		&::before {
 			position: absolute;
 			content: '';
 			left: 0;
@@ -35,9 +31,8 @@
 			width: 434px;
 			background-image: url(../images/banner-shape-1.png);
 			z-index: -1;
-
 		}
-		&::after{
+		&::after {
 			position: absolute;
 			content: '';
 			right: 0;
@@ -47,27 +42,27 @@
 			background-image: url(../images/banner-shape-2.png);
 			z-index: -1;
 		}
-		
-		&.item-1{
+
+		&.item-1 {
 			background-image: url(../images/banner-thumb-1.jpg);
 			background-size: cover;
 			background-position: center center;
 			background-repeat: no-repeat;
-		}		
-		&.item-2{
+		}
+		&.item-2 {
 			background-image: url(../images/banner-thumb-2.jpg);
 			background-size: cover;
 			background-position: center center;
 			background-repeat: no-repeat;
-		}		
-		&.item-3{
+		}
+		&.item-3 {
 			background-image: url(../images/banner-thumb-3.jpg);
 			background-size: cover;
 			background-position: center center;
 			background-repeat: no-repeat;
 		}
 	}
-	& .infetech-banner-content{
+	& .synaptech-banner-content {
 		text-align: center;
 		display: flex;
 		align-items: center;
@@ -78,7 +73,7 @@
 		@media #{$xs} {
 			height: 500px;
 		}
-		& h4{
+		& h4 {
 			font-size: 18px;
 			font-weight: 600;
 			color: #fff;
@@ -94,7 +89,7 @@
 			@media #{$sm} {
 				font-size: 18px;
 			}
-			&::before{
+			&::before {
 				position: absolute;
 				content: '';
 				left: 0;
@@ -104,7 +99,7 @@
 				background: #a4a2a9;
 			}
 		}
-		& h1{
+		& h1 {
 			font-size: 100px;
 			font-weight: 800;
 			color: #fff;
@@ -124,12 +119,12 @@
 				font-size: 50px;
 			}
 		}
-		& .banner-arrow{
+		& .banner-arrow {
 			position: absolute;
 			left: 63%;
 			top: 58%;
 		}
-		& img{
+		& img {
 			display: inline-block;
 			@media #{$xs} {
 				width: 28px;
@@ -139,8 +134,8 @@
 			}
 		}
 	}
-	&.infetech-banner-slide{
-		& .slick-arrow{
+	&.synaptech-banner-slide {
+		& .slick-arrow {
 			position: absolute;
 			right: 17%;
 			height: 0;
@@ -164,29 +159,23 @@
 			@media #{$md} {
 				right: 30px;
 			}
-			&.prev{
+			&.prev {
 				top: 46%;
 			}
-			&.next{
+			&.next {
 				top: 54%;
 			}
-			&:hover{
+			&:hover {
 				opacity: 1;
 			}
 		}
 	}
 }
 
-
-
-
-
 // banner layout 2 style  //
 
-
-
-.infetech-banner-area-layout-2{
-	& .infetech-banner-slide-item{
+.synaptech-banner-area-layout-2 {
+	& .synaptech-banner-slide-item {
 		background: url(../images/banner-thumb-4.jpg);
 		padding-top: 250px;
 		padding-bottom: 130px;
@@ -195,13 +184,13 @@
 		background-size: cover;
 		position: relative;
 		z-index: 10;
-		&.item-2{
+		&.item-2 {
 			background: url(../images/banner-thumb-5.jpg);
 		}
-		&.item-3{
+		&.item-3 {
 			background: url(../images/banner-thumb-6.jpg);
 		}
-		&::before{
+		&::before {
 			position: absolute;
 			content: '';
 			left: 0;
@@ -214,59 +203,59 @@
 			background-size: cover;
 			z-index: -1;
 		}
-		& .infetech-banner-content{
-			& .play-btn{
-	            & a{
-	                height: 60px;
-	                width: 60px;
-	                text-align: center;
-	                line-height: 60px;
-	                border-radius: 50%;
-	                color: $white;
-	                background: $theme-color;
-	                position: relative;
-	                &::before{
-	                    position: absolute;
-	                    content: '';
-	                    left: 0;
-	                    top: 0;
-	                    height: 100%;
-	                    width: 100%;
-	                    border: 1px solid $white;
-	                    border-radius: 50%;
-	                    animation: play-popup 1.5s infinite;
-	                }
-	            }
-	        }
-	        & .info-text{
-	        	& .title{
-	        		font-size: 90px;
-	        		color: $white;
-	        		padding-top: 39px;
-	        		padding-bottom: 16px;
-	        		@media #{$lg} {
-	        			font-size: 60px;
-	        		}
-	        		@media #{$md} {
-	        			font-size: 40px;
-	        		}
-	        		@media #{$xs} {
-	        			font-size: 40px;
-	        		}
-	        	}
-	        	& p{
-	        		font-size: 18px;
-	        		font-weight: 500;
-	        		color: $white;
-	        		opacity: 0.7;
-	        		padding-right: 50px;
-	        		margin-bottom: 42px;
-	        	}
-	        }
+		& .synaptech-banner-content {
+			& .play-btn {
+				& a {
+					height: 60px;
+					width: 60px;
+					text-align: center;
+					line-height: 60px;
+					border-radius: 50%;
+					color: $white;
+					background: $theme-color;
+					position: relative;
+					&::before {
+						position: absolute;
+						content: '';
+						left: 0;
+						top: 0;
+						height: 100%;
+						width: 100%;
+						border: 1px solid $white;
+						border-radius: 50%;
+						animation: play-popup 1.5s infinite;
+					}
+				}
+			}
+			& .info-text {
+				& .title {
+					font-size: 90px;
+					color: $white;
+					padding-top: 39px;
+					padding-bottom: 16px;
+					@media #{$lg} {
+						font-size: 60px;
+					}
+					@media #{$md} {
+						font-size: 40px;
+					}
+					@media #{$xs} {
+						font-size: 40px;
+					}
+				}
+				& p {
+					font-size: 18px;
+					font-weight: 500;
+					color: $white;
+					opacity: 0.7;
+					padding-right: 50px;
+					margin-bottom: 42px;
+				}
+			}
 		}
 	}
-	&.infetech-banner-slide{
-		& .slick-arrow{
+	&.synaptech-banner-slide {
+		& .slick-arrow {
 			position: absolute;
 			right: 17%;
 			height: 0;
@@ -290,18 +279,18 @@
 			@media #{$md} {
 				right: 30px;
 			}
-			&.prev{
+			&.prev {
 				top: 46%;
 			}
-			&.next{
+			&.next {
 				top: 54%;
 			}
-			&:hover{
+			&:hover {
 				opacity: 1;
 			}
 		}
 	}
-	&.infetech-banner-area-layout-3{
+	&.synaptech-banner-area-layout-3 {
 		margin-top: 103px;
 		@media #{$lg} {
 			margin-top: 96px;
@@ -312,26 +301,26 @@
 		@media #{$xs} {
 			margin-top: 92px;
 		}
-		& .infetech-banner-slide-item{
+		& .synaptech-banner-slide-item {
 			background-image: url(../images/banner-thumb-8.jpg);
 			background-size: cover;
 			background-position: center;
 			background-repeat: no-repeat;
-			&::before{
+			&::before {
 				display: none;
 			}
-			&.item-2{
+			&.item-2 {
 				background-image: url(../images/banner-thumb-7.jpg);
 			}
-			& .infetech-banner-content{
-				& span{
+			& .synaptech-banner-content {
+				& span {
 					font-weight: 800;
 					color: $theme-color-2;
 					text-transform: uppercase;
 					letter-spacing: 2.5px;
 				}
-				
-				& .title{
+
+				& .title {
 					color: $black;
 					font-size: 100px;
 					padding-top: 0;
@@ -349,13 +338,13 @@
 						font-size: 56px;
 						line-height: 56px;
 					}
-					& span{
+					& span {
 						text-transform: capitalize;
 						color: $black;
 						letter-spacing: inherit;
 						position: relative;
 						z-index: 10;
-						&::before{
+						&::before {
 							position: absolute;
 							content: '';
 							width: 100%;
@@ -363,23 +352,20 @@
 							bottom: 15px;
 							left: 0;
 							background-image: url(../images/banner-line.png);
-							z-index: -1;							
+							z-index: -1;
 							@media #{$xs} {
 								display: none;
 							}
 						}
 					}
 				}
-
 			}
 		}
 	}
-
 }
 
-
-.header-main-nav-layout-2{
-	& .logo-white{
+.header-main-nav-layout-2 {
+	& .logo-white {
 		text-align: left;
 		@media #{$xs} {
 			text-align: center;
@@ -387,10 +373,9 @@
 	}
 }
 
-
-.infetech-banner-main-area{
+.synaptech-banner-main-area {
 	position: relative;
-	& .banner-social{
+	& .banner-social {
 		position: absolute;
 		left: 80px;
 		top: 50%;
@@ -407,16 +392,16 @@
 		@media #{$xs} {
 			display: none;
 		}
-		& ul{
-			& li{
+		& ul {
+			& li {
 				margin: 40px 0;
-				& a{
+				& a {
 					color: #6c6a72;
 				}
 			}
 		}
 	}
-	& .banner-play-icon{
+	& .banner-play-icon {
 		display: flex;
 		justify-content: flex-end;
 		width: 100%;
@@ -429,39 +414,39 @@
 			justify-content: flex-start;
 			margin-top: 20px;
 		}
-		& .icon{
-			& a{
+		& .icon {
+			& a {
 				display: inline-block;
 				height: 86px;
 				width: 86px;
 				text-align: center;
 				line-height: 86px;
-				background: rgba(95,45,238,0.5);
+				background: rgba(95, 45, 238, 0.5);
 				border-radius: 50%;
-				color: $white;         
-				position: relative;       
-				&::before{
-                    position: absolute;
-                    content: '';
-                    left: 0;
-                    top: 0;
-                    height: 100%;
-                    width: 100%;
-                    border: 1px solid $theme-color-2;
-                    border-radius: 50%;
-                    animation: play-popup 2s infinite;
-                }
+				color: $white;
+				position: relative;
+				&::before {
+					position: absolute;
+					content: '';
+					left: 0;
+					top: 0;
+					height: 100%;
+					width: 100%;
+					border: 1px solid $theme-color-2;
+					border-radius: 50%;
+					animation: play-popup 2s infinite;
+				}
 			}
 		}
-		& .title{
+		& .title {
 			font-size: 16px;
 			font-weight: 500;
 			color: $black;
 			margin-left: 50px;
 		}
 	}
-	& .infetech-banner-area-layout-2 {
-		& .infetech-banner-slide-item{
+	& .synaptech-banner-area-layout-2 {
+		& .synaptech-banner-slide-item {
 			padding-top: 144px;
 			padding-bottom: 150px;
 		}
@@ -469,26 +454,22 @@
 }
 
 @keyframes play-popup-2 {
-  from {
-    transform: scale(1);
-    opacity: 1;
-  }
-  to {
-    transform: scale(1.5);
-    opacity: 0;
-
-  }
+	from {
+		transform: scale(1);
+		opacity: 1;
+	}
+	to {
+		transform: scale(1.5);
+		opacity: 0;
+	}
 }
 
-
-
-
-.infetech-banner-area-4{
+.synaptech-banner-area-4 {
 	padding-top: 205px;
 	padding-bottom: 77px;
 	position: relative;
 	z-index: 10;
-	&::before{
+	&::before {
 		position: absolute;
 		content: '';
 		left: 0;
@@ -504,9 +485,9 @@
 			display: none;
 		}
 	}
-	& .banner-content-box{
+	& .banner-content-box {
 		text-align: center;
-		& .title{
+		& .title {
 			font-size: 60px;
 			@media #{$md} {
 				font-size: 46px;
@@ -515,7 +496,7 @@
 				font-size: 36px;
 			}
 		}
-		& span{
+		& span {
 			font-size: 24px;
 			font-weight: 400;
 			color: #6c6a72;
@@ -528,9 +509,9 @@
 				font-size: 18px;
 			}
 		}
-		& .thumb{
+		& .thumb {
 			position: relative;
-			& .icon{
+			& .icon {
 				background: $theme-color;
 				display: inline-block;
 				height: 102px;
@@ -549,7 +530,7 @@
 				@media #{$sm} {
 					display: block;
 				}
-				&::before{
+				&::before {
 					position: absolute;
 					content: '';
 					left: 50%;
@@ -561,7 +542,7 @@
 					border-radius: 50%;
 					opacity: 0.05;
 				}
-				&.icon-2{
+				&.icon-2 {
 					left: auto;
 					right: 0;
 					top: 170px;
@@ -571,7 +552,7 @@
 	}
 }
 
-.infetech-banner-area-5{
+.synaptech-banner-area-5 {
 	background: #f5f3f9;
 	padding: 295px 0 170px;
 	background-image: url(../images/footer-line.png);
@@ -579,9 +560,9 @@
 	background-position: top right;
 	background-repeat: no-repeat;
 	position: relative;
-	&::before{
+	&::before {
 		position: absolute;
-		content: ''; 
+		content: '';
 		left: 0;
 		top: 0;
 		height: 100%;
@@ -599,7 +580,7 @@
 	}
 }
 
-.banner-content-5{
+.banner-content-5 {
 	padding-left: 92px;
 	margin-right: -60px;
 	@media #{$laptop} {
@@ -618,7 +599,7 @@
 		margin-right: 0;
 		padding-left: 0px;
 	}
-	& span{
+	& span {
 		font-size: 16px;
 		font-weight: 700;
 		text-transform: uppercase;
@@ -627,7 +608,7 @@
 		padding-top: 13px;
 		padding-bottom: 14px;
 	}
-	& .title{
+	& .title {
 		font-size: 80px;
 		line-height: 80px;
 		margin-bottom: 26px;
@@ -647,21 +628,19 @@
 			line-height: 46px;
 		}
 	}
-	& p{
+	& p {
 		font-size: 18px;
 		font-weight: 500;
 		color: #6c6a72;
 		line-height: 36px;
-		margin-bottom:37px;
+		margin-bottom: 37px;
 	}
-	& a{
+	& a {
 		border: 1px solid $theme-color-2;
 	}
 }
 
-
-
-.breadcrumb-area{
+.breadcrumb-area {
 	background-image: url(../images/breadcrumb-bg.png);
 	background-position: top right;
 	background-size: cover;
@@ -676,7 +655,7 @@
 	@media #{$xs} {
 		padding: 101px 0 85px;
 	}
-	&::before{
+	&::before {
 		position: absolute;
 		content: '';
 		left: 0;
@@ -691,12 +670,9 @@
 	}
 }
 
-
-
-
-.breadcrumb-item{
+.breadcrumb-item {
 	text-align: center;
-	& .title{
+	& .title {
 		color: $white;
 		font-size: 40px;
 		lg: linear-gradient();
@@ -704,23 +680,21 @@
 		@media #{$xs} {
 			font-size: 30px;
 			line-height: 40px;
-
 		}
 	}
-	& nav{
+	& nav {
 		display: inline-block;
-		& ol{
-			& li{
+		& ol {
+			& li {
 				& a,
-				&.active{
+				&.active {
 					color: $white;
 					opacity: 0.6;
 					font-weight: 600;
 					text-transform: uppercase;
-
 				}
-				& + .breadcrumb-item{
-					&::before{
+				& + .breadcrumb-item {
+					&::before {
 						color: $white;
 					}
 				}

@@ -78,25 +78,25 @@
     //===== banner animation slick slider
 
     function mainSlider() {
-        var BasicSlider = $('.infetech-banner-slide');
-        var BasicSlider2 = $('.infetech-banner-area-layout-2');
+        var BasicSlider = $('.synaptech-banner-slide');
+        var BasicSlider2 = $('.synaptech-banner-area-layout-2');
         BasicSlider.on('init', function (e, slick) {
-            var $firstAnimatingElements = $('.infetech-banner-slide-active:first-child').find('[data-animation]');
+            var $firstAnimatingElements = $('.synaptech-banner-slide-active:first-child').find('[data-animation]');
             doAnimations($firstAnimatingElements);
         });
         BasicSlider2.on('init', function (e, slick) {
-            var $firstAnimatingElements = $('.infetech-banner-slide-item:first-child').find('[data-animation]');
+            var $firstAnimatingElements = $('.synaptech-banner-slide-item:first-child').find('[data-animation]');
             doAnimations($firstAnimatingElements);
         });
 
         BasicSlider.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
-            var $animatingElements = $('.infetech-banner-slide-active[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
+            var $animatingElements = $('.synaptech-banner-slide-active[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
             doAnimations($animatingElements);
         });
 
 
         BasicSlider2.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
-            var $animatingElements = $('.infetech-banner-slide-item[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
+            var $animatingElements = $('.synaptech-banner-slide-item[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
             doAnimations($animatingElements);
         });
 
@@ -159,7 +159,7 @@
 
 
     //===== client slide v1 js
-    $('.infetech-feature-slide').slick({
+    $('.synaptech-feature-slide').slick({
         arrows: false,
         dots: false,
         infinite: true,
@@ -201,7 +201,7 @@
     });
 
     //===== client slide v1 js
-    $('.infetech-project-slide').slick({
+    $('.synaptech-project-slide').slick({
         arrows: false,
         dots: true,
         infinite: true,
@@ -245,7 +245,7 @@
     });
 
     //===== client slide v1 js
-    $('.infetech-project-slide-2').slick({
+    $('.synaptech-project-slide-2').slick({
         arrows: false,
         dots: true,
         infinite: true,
@@ -296,7 +296,7 @@
     });
 
     //===== client slide v1 js
-    $('.infetech-sponser-slide').slick({
+    $('.synaptech-sponser-slide').slick({
         arrows: false,
         dots: false,
         infinite: true,
@@ -340,7 +340,7 @@
     });
 
     //===== client slide v1 js
-    $('.infetech-testimonial-slide').slick({
+    $('.synaptech-testimonial-slide').slick({
         arrows: false,
         dots: true,
         infinite: true,
@@ -421,7 +421,7 @@
     });
 
     //===== client slide v1 js
-    $('.infetech-blog-slide-active').slick({
+    $('.synaptech-blog-slide-active').slick({
         arrows: false,
         prevArrow: '<span class="prev"><i class="fal fa-long-arrow-left"></i></span>',
         nextArrow: '<span class="next"><i class="fal fa-long-arrow-right"></i></span>',
@@ -460,7 +460,7 @@
     });
 
     //===== client slide v1 js
-    $('.infetech-sponser-slide-3').slick({
+    $('.synaptech-sponser-slide-3').slick({
         arrows: false,
         prevArrow: '<span class="prev"><i class="fal fa-long-arrow-left"></i></span>',
         nextArrow: '<span class="next"><i class="fal fa-long-arrow-right"></i></span>',
